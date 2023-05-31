@@ -1,0 +1,15 @@
+{
+"message":"hound": [
+            "afghan",
+            "basset",
+            "blood",
+            "english",
+            "ibizan",
+            "plott",
+            "walker"
+        ],"terrier": [
+            "american",
+            "australian",
+            "bedlington",
+            "border"]
+            }

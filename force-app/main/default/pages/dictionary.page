@@ -1,0 +1,16 @@
+<apex:page controller="MyController">
+  <apex:form >
+  <apex:pageBlock >
+      <apex:pageMessages ></apex:pageMessages>
+      
+          <apex:pageBlockSection >
+              <apex:inputText value="{!userInput}" label="Enter a Word"/>
+              
+          </apex:pageBlockSection>
+          <apex:pageBlockButtons >
+              <apex:commandButton action="{!doSubmit}" value="Search"/>
+          </apex:pageBlockButtons>
+      
+  </apex:pageBlock>
+  </apex:form>
+</apex:page>

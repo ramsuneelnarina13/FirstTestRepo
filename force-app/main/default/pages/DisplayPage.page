@@ -1,0 +1,18 @@
+<apex:page controller="MyController">
+  <apex:form >
+  <apex:pageBlock >
+       <apex:pageMessages ></apex:pageMessages>
+      
+          <apex:pageBlockSection columns="2">
+              <apex:inputText value="{!latitude}" label="Enter latitude"/>
+              <apex:inputText value="{!longitude}" label="Enter longitude"/>              
+          </apex:pageBlockSection>
+          <apex:pageBlockSection >
+              <center><apex:outputText value="{!resLocation}">Result Location : </apex:outputText></center>
+          </apex:pageBlockSection>
+          <apex:pageBlockButtons >
+              <apex:commandButton action="{!makeCallout}" value="Search"/>
+          </apex:pageBlockButtons>
+        </apex:pageBlock>
+  </apex:form>
+</apex:page>

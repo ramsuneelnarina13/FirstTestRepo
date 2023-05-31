@@ -1,0 +1,34 @@
+<apex:page standardController="Account" showHeader="false">
+
+<apex:sectionHeader title="Blue Bus"/>
+<apex:form >
+<apex:pageBlock title="Passenger details" mode="edit">
+<apex:pageBlockSection columns="3">
+<apex:inputText value="{!account.name}" id="theTextInput"/>
+
+<label>select origin</label>
+<select name="select">
+    <option value="volvo">Ameerpet</option>
+    <option value="saab">Kukatpalli</option>
+    <option value="opel">Miyapur</option>
+    <option value="audi">L B Nagar</option>
+    <option value="audi">Madhapur</option>
+  </select>
+
+<label>select Destination</label>
+<select name="select">
+    <option value="volvo">Kakinada</option>
+    <option value="saab">Guntur</option>
+    <option value="opel">Rajahmandry</option>
+    <option value="audi">Tanuku</option>
+    <option value="audi">Narsapur</option>
+  </select>
+</apex:pageBlockSection>
+<apex:pageBlockButtons >
+<apex:commandButton value="Book" action="{!save}"/>
+<apex:commandButton value="Cancel" action="{!cancel}"/>
+</apex:pageBlockButtons>
+</apex:pageBlock>
+</apex:form>
+ 
+</apex:page>

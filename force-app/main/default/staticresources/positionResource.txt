@@ -1,0 +1,1 @@
+{"Version": 1,"Key": "256273","Type": "City","Rank": 75,"LocalizedName": "Vannvag","EnglishName": "Vannvag","PrimaryPostalCode": "","Region": {"ID": "EUR","LocalizedName": "Europe","EnglishName": "Europe"},

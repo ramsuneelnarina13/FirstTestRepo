@@ -1,0 +1,19 @@
+<apex:page Controller="CalcClass">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection >
+                <apex:inputText label="Enter First Num" Value="{!Num1}"/>
+                <apex:inputText label="Enter Second Num" Value="{!Num2}"/>    
+                <apex:inputText label="Enter Third Num" Value="{!Num3}"/> 
+                
+                <Apex:selectRadio Label="Select your Choice" value="{!Choice}">
+                    <Apex:selectOption itemValue="" itemLabel="Sum upto Even Numbers"/>
+                    <Apex:selectOption itemValue="" itemLabel="Area of triangle"/>
+                    <Apex:selectOption itemValue="" itemLabel="Greater of three Numbers"/>
+                </Apex:selectRadio>>
+                
+                <Apex:commandbutton Value="" Action="{!Calculate}"/>
+            </apex:pageBlockSection>    
+        </apex:pageBlock>>
+    </apex:form>>
+</apex:page>
